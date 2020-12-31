@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Project">
+
+	<test name="API's">
+		<classes>
+			<class name="test.test_DELETE_API" />
+			<class name="test.test_GET_API" />
+			<class name="test.test_PUT_API" />
+			<class name="test.test_POST_API" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
